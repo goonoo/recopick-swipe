@@ -1,0 +1,26 @@
+{
+  "name": "recopick-swipe",
+  "version": "0.1",
+  "description": "RecoPick Swipe는 데스크탑, 모바일 등 디바이스에 관계 없이 웹에서 간단히 사용할 수 있는 Swipe 라이브러리입니다.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mctenshi/recopick-swipe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mctenshi/recopick-swipe/issues"
+  },
+  "homepage": "https://github.com/mctenshi/recopick-swipe",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.10.0"
+  }
+}

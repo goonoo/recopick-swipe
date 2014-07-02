@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>이 상품을 본 고객이 많이 본 다른 상품 by RecoPick</title>
+    <link rel="stylesheet" href="../swipe.css">
+    <style>
+      body, ul, li {
+        margin: 0;
+        padding: 0;
+      }
+      .sample {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        padding: 30px;
+        background: #eee;
+      }
+      .target-wrap {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        overflow: hidden;
+      }
+      .target {
+        width: 2000px;
+        list-style: none;
+      }
+      .target li {
+        float: left;
+        width: 125px;
+      }
+      .prev {
+        position: absolute;
+        top: 90px;
+        left: 5px;
+        width: 20px;
+        height: 20px;
+        background: red;
+      }
+      .next {
+        position: absolute;
+        top: 90px;
+        right: 5px;
+        width: 20px;
+        height: 20px;
+        background: red;
+      }
+    </style>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../swipe.js"></script>
+    <script>
+    $(function () {
+      $('.sample').recopickSwipe({
+        $target: $('.target'),
+        total: 4,
+        $prev: $('.prev'),
+        $next: $('.next'),
+        infinite: true 
+      });
+    });
+    </script>
+  </head>
+  <body>
+    <div class="sample">
+      <div class="target-wrap">
+        <ul class="target">
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/3.png">
+              <div class="author">RecoPick</div>
+              <div class="name">추천을 통해 매출을 극대화하세요</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/3.png">
+              <div class="author">RecoPick</div>
+              <div class="name">추천을 통해 매출을 극대화하세요</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/4.png">
+              <div class="author">RecoPick</div>
+              <div class="name">고품질의 추천 서비스를 느껴보세요! </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/2.png">
+              <div class="author">RecoPick</div>
+              <div class="name">레코픽을 이용해주셔서 감사합니다</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/2.png">
+              <div class="author">RecoPick</div>
+              <div class="name">레코픽을 이용해주셔서 감사합니다</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/3.png">
+              <div class="author">RecoPick</div>
+              <div class="name">추천을 통해 매출을 극대화하세요</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/2.png">
+              <div class="author">RecoPick</div>
+              <div class="name">레코픽을 이용해주셔서 감사합니다</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/5.png">
+              <div class="author">RecoPick</div>
+              <div class="name">보시는 데이터는 추천 결과 샘플입니다</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/5.png">
+              <div class="author">RecoPick</div>
+              <div class="name">보시는 데이터는 추천 결과 샘플입니다</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/5.png">
+              <div class="author">RecoPick</div>
+              <div class="name">보시는 데이터는 추천 결과 샘플입니다</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/2.png">
+              <div class="author">RecoPick</div>
+              <div class="name">레코픽을 이용해주셔서 감사합니다</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/3.png">
+              <div class="author">RecoPick</div>
+              <div class="name">추천을 통해 매출을 극대화하세요</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/4.png">
+              <div class="author">RecoPick</div>
+              <div class="name">고품질의 추천 서비스를 느껴보세요! </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="" src="https://api.recopick.com/i/prd_sample/3.png">
+              <div class="author">RecoPick</div>
+              <div class="name">추천을 통해 매출을 극대화하세요</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="prev"></div>
+      <div class="next"></div>
+    </div>
+  </body>
+</html>
