@@ -13,6 +13,13 @@ UI가 보여질 정해진 크기의 stage에 stage보다 n배 큰(n페이지로 
 초간단 예제
 -----------
 
+우선 `swipe.min.js`, `swipe.min.css`를 로드합니다.
+`swipe.min.js`는 전에 jQuery 라이브러리가 로드되도록 주의해주세요.
+
+    <link rel="stylesheet" href="path/to/swipe.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="path/to/swipe.min.js"></script>
+
 다음과 같은 형식의 HTML 코드를 준비합니다.
 클래스명은 마음대로 지정하셔도 됩니다.
 
