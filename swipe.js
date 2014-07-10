@@ -1,4 +1,22 @@
-(function ($) {
+/*!
+ * recopick-swipe v0.1
+ * https://github.com/mctenshi/recopick-swipe
+ *
+ * Copyright 2014 RecoPick
+ * Released under the MIT license
+ */
+(function (factory) {
+  if (typeof define === 'function' && define.amd) {
+    // AMD
+    define(['jquery'], factory);
+  } else if (typeof exports === 'object') {
+    // CommonJS
+    factory(require('jquery'));
+  } else {
+    // Browser globals
+    factory(jQuery);
+  }
+}(function ($) {
   "use strict";
 
   var isTransformSupported = (function () {
@@ -255,4 +273,4 @@
       swipe.call(this, options);
     });
   };
-}(jQuery));
+}));

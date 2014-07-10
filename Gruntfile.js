@@ -5,21 +5,20 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
-        banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ISC License */'
+        preserveComments: 'some'
       },
       compress: {
         files: {
-          "swipe.min.js": ['src/swipe.js']
+          "dist/swipe.min.js": ['swipe.js']
         }
       }
     },
     cssmin: {
       options: {
-        banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ISC License */'
       },
       compress: {
         files: {
-          "swipe.min.css": ['src/swipe.css']
+          "dist/swipe.min.css": ['swipe.css']
         }
       }
     }
