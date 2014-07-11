@@ -3,6 +3,9 @@
 module.exports = function (grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    qunit: {
+      all: ['test/index.html']
+    },
     uglify: {
       options: {
         preserveComments: 'some'
@@ -24,8 +27,13 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  // Loading dependencies
+  for (var key in grunt.file.readJSON('package.json').devDependencies) {
+    if (key !== 'grunt' && key.indexOf('grunt') === 0) {
+      grunt.loadNpmTasks(key);
+    }
+  }
 
   grunt.registerTask('default', ['uglify', 'cssmin']);
+  grunt.registerTask('ci', ['qunit']);
 };
