@@ -1,26 +1,14 @@
 {
   "name": "recopick-swipe",
-  "version": "0.1.1",
-  "homepage": "https://github.com/mctenshi/recopick-swipe",
-  "authors": [
-    "mctenshi <mctenshi@gmail.com>"
-  ],
   "description": "Light Weight Swipe Library, RecoPick Swipe",
+  "version": "0.1.1",
   "main": "./swipe.js",
+  "license": "MIT",
   "moduleType": [
     "amd",
     "commonjs",
     "globals"
   ],
-  "keywords": [
-    "swipe",
-    "carousel",
-    "recopick"
-  ],
-  "dependencies": [
-    "jquery": ">=1.7"
-  ],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -30,5 +18,21 @@
     "Gruntfile.js",
     "*.md",
     "*.json"
-  ]
+  ],
+  "keywords": [
+    "swipe",
+    "carousel",
+    "recopick"
+  ],
+  "authors": [
+    "mctenshi <mctenshi@gmail.com>"
+  ],
+  "homepage": "https://github.com/mctenshi/recopick-swipe",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mctenshi/recopick-swipe.git"
+  },
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
 }
