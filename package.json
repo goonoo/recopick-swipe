@@ -1,6 +1,6 @@
 {
   "name": "recopick-swipe",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "RecoPick Swipe는 데스크탑, 모바일 등 디바이스에 관계 없이 웹에서 간단히 사용할 수 있는 Swipe 라이브러리입니다.",
   "directories": {
     "test": "test"
