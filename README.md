@@ -1,3 +1,5 @@
+# RecoPick Swipe [![Build Status](https://travis-ci.org/mctenshi/recopick-swipe.png?branch=master)](https://travis-ci.org/mctenshi/recopick-swipe)
+
 RecoPick Swipe는 데스크탑, 모바일 등 디바이스에 관계 없이 웹에서 간단히 사용할
 수 있는 Swipe 라이브러리입니다.
 
