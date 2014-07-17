@@ -205,6 +205,10 @@
       if (total === new_total) return;
       total = new_total;
       animate();
+    }).on('swipe_page', function (e, new_page) {
+      if (new_page > total) return;
+      p = new_page;
+      animate();
     });
 
     $(window).on('resize orientationchange', function (e) {

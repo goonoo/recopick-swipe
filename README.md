@@ -183,6 +183,18 @@ RecoPick Swipe에서 지정할 수 있는 옵션입니다.
  * `transition_ms`: Swipe 효과의 속도를 millisecond 단위로 지정합니다. 기본값은 300.
 
 
+Methods
+-------
+
+`swipe_total`: 전체 페이지 수를 변경합니다.
+
+    $('.stage').trigger('swipe_total', 5);
+
+`swipe_page`: 현재 페이지를 변경합니다. 현재 페이지가 전체 페이지 수보다 큰 경우 무시됩니다.
+
+    $('.stage').trigger('swipe_page', 1);
+
+
 Live 예제
 ---------
 

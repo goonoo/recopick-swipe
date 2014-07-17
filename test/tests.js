@@ -40,7 +40,7 @@ test('navigation', function () {
       'on last(3rd) page, text of current element should be "3"');
 });
 test('infinite swipe: navigation', function () {
-  expect(8);
+  expect(10);
   strictEqual($('.stage2 .prev').hasClass('disabled'), false,
       'on 1 page, prev button should not has disabled class');
   strictEqual($('.stage2 .next').hasClass('disabled'), false,
@@ -60,4 +60,11 @@ test('infinite swipe: navigation', function () {
   $('.stage2 .next').click();
   strictEqual($('.stage2 .curr').text(), '1',
       'after click next button on last(3rd) page, text of current element should be "1"');
+
+  $('.stage2').trigger('swipe_page', 3);
+  strictEqual($('.stage2 .curr').text(), '3',
+      'after trigger swipe_page event, current page should changed to the value.');
+  $('.stage2').trigger('swipe_page', 5);
+  strictEqual($('.stage2 .curr').text(), '3',
+      'if the value of swipe_page is bigger than total page, nothing happens.');
 });
