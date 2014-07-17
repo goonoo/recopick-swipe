@@ -204,7 +204,13 @@
     }).on('swipe_total', function (e, new_total) {
       if (total === new_total) return;
       total = new_total;
+      if (p > total) p = total;
+      getWidth(true);
+      offset = 0;
       animate();
+      $target.each(function (idx) {
+        $(this).css('left', total * (offset + idx) * 100 + '%');
+      });
     }).on('swipe_page', function (e, new_page) {
       if (new_page > total) return;
       p = new_page;
