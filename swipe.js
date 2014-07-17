@@ -1,5 +1,5 @@
 /*!
- * recopick-swipe v0.1
+ * recopick-swipe v0.1.3
  * https://github.com/mctenshi/recopick-swipe
  *
  * Copyright 2014 RecoPick
