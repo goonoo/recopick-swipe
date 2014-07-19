@@ -62,7 +62,7 @@ stage와 target의 초기상태를 CSS 코드로 정의합니다.
 결과를 확인해볼까요?  터치 디바이스에서 확인하실 수 있습니다.
 마우스를 사용하신다면 이전, 다음 버튼의 예제를 확인해보세요.
 
-[초간단 예제 실행](http://jsfiddle.net/mctenshi/8NM5r/1/)
+[초간단 예제 실행](http://jsfiddle.net/mctenshi/8NM5r/2/)
 
 
 
@@ -77,7 +77,7 @@ stage와 target의 초기상태를 CSS 코드로 정의합니다.
       infinite: true
     });
 
-[무한 Swipe Demo](http://jsfiddle.net/mctenshi/gmpM3/1/)
+[무한 Swipe Demo](http://jsfiddle.net/mctenshi/gmpM3/2/)
 
 
 
@@ -115,7 +115,7 @@ stage와 target의 초기상태를 CSS 코드로 정의합니다.
     .next{cursor:pointer;position:absolute;top:350px;right:100px;width:47px;height:25px;background:url(http://mctenshi.github.io/recopick-swipe/images/next.png) no-repeat 0 0;}
     .next.disabled{cursor:default;opacity:.3}
 
-[이전, 다음 버튼 Demo](http://jsfiddle.net/mctenshi/HUjuw/)
+[이전, 다음 버튼 Demo](http://jsfiddle.net/mctenshi/HUjuw/1/)
 
 `infinite` 옵션을 지정하면 이전, 다음 버튼으로도 무한 스크롤이 가능합니다.
 
@@ -127,7 +127,7 @@ stage와 target의 초기상태를 CSS 코드로 정의합니다.
       infinite: true
     });
 
-[이전, 다음 버튼 + infinite 옵션 Demo](http://jsfiddle.net/mctenshi/RLmab/)
+[이전, 다음 버튼 + infinite 옵션 Demo](http://jsfiddle.net/mctenshi/RLmab/2/)
 
 
 현재 페이지 표시
@@ -166,7 +166,7 @@ stage와 target의 초기상태를 CSS 코드로 정의합니다.
     .pages {position:absolute;top:350px;left:100px;width:100px;text-align:center;}
     .curr {color:red}
 
-[이전, 다음 버튼 + infinite 옵션 Demo](http://jsfiddle.net/mctenshi/qA9aw/1/)
+[이전, 다음 버튼 + infinite 옵션 Demo](http://jsfiddle.net/mctenshi/qA9aw/2/)
 
 
 Options
