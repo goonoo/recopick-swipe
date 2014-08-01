@@ -181,6 +181,7 @@ RecoPick Swipe에서 지정할 수 있는 옵션입니다.
  * `infinite`: 무한 스크롤 여부를 true/false로 지정합니다. 기본값은 false.
  * `$curr`: 현재 페이지 번호를 jQuery Element로 지정합니다.
  * `transition_ms`: Swipe 효과의 속도를 millisecond 단위로 지정합니다. 기본값은 300.
+ * `onPage`: 페이지가 변경되면 호출되는 함수입니다. 첫번째 인자로 현재 페이지 번호가 전달됩니다.
 
 
 Methods
@@ -198,6 +199,9 @@ Methods
 Live 예제
 ---------
 
- * 하프클럽의 다른 고객이 같이 본 상품 위젯: http://www.halfclub.com/Detail?PrstCd=DP4408K_VLH&ColorCd=ZZ9
- * 나인걸의 추천 인기상품 위젯: http://www.naingirl.com/shop/shopdetail.html?branduid=96849
- * 보리보리 모바일의 함께 본 상품 위젯: http://m.boribori.co.kr/Shop/Detail.aspx?PrstCd=112MB10-GY_RVH&ColorCd=101
+ * 하프클럽의 다른 고객이 같이 본 상품 위젯:
+http://www.halfclub.com/Detail?PrstCd=DP4408K_VLH&ColorCd=ZZ9
+ * 나인걸의 추천 인기상품 위젯:
+http://www.naingirl.com/shop/shopdetail.html?branduid=96849
+ * 보리보리 모바일의 함께 본 상품 위젯:
+http://m.boribori.co.kr/Shop/Detail.aspx?PrstCd=112MB10-GY_RVH&ColorCd=101

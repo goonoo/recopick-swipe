@@ -1,7 +1,7 @@
 {
   "name": "recopick-swipe",
   "description": "Light Weight Swipe Library, RecoPick Swipe",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "./swipe.js",
   "license": "MIT",
   "moduleType": [
