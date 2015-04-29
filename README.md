@@ -199,9 +199,6 @@ Methods
 Live 예제
 ---------
 
- * 하프클럽의 다른 고객이 같이 본 상품 위젯:
-http://www.halfclub.com/Detail?PrstCd=DP4408K_VLH&ColorCd=ZZ9
+ * 신세계면세점의 "고객님을 위한 추천상품": http://www.ssgdfs.com/shop/main
  * 나인걸의 추천 인기상품 위젯:
 http://www.naingirl.com/shop/shopdetail.html?branduid=96849
- * 보리보리 모바일의 함께 본 상품 위젯:
-http://m.boribori.co.kr/Shop/Detail.aspx?PrstCd=112MB10-GY_RVH&ColorCd=101
